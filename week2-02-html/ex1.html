@@ -3,61 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Num Banh Chok Bio & Menu</title>
 </head>
 <body>
-  <div style="text-align: center;">
-    <h1>This is our menu  </h1>
-    <h2> Numbanhjok </h2>
-    <img src="https://www.cambodiaembassyuk.org/wp-content/uploads/2023/11/Num-Banh-Chok-Khmer-768x564.jpg " width="400px" height="400px" alt="Numbanhjok is one of the best khmer dish">
- </div>
-<div style="text-align: left; padding: 10px;">
- <h3> Ingedient </h3>
- <ul>
-    <li>Freshwater Fish: Used to create the savory gravy.</li>
-    <li>Fermented Rice Noodles: The specific thin noodles for which the dish is named.</li>
-    <li>Kroeung: The yellow aromatic paste made from lemongrass and turmeric</li>
-    <li>Fingerroot (Krachai): Provides the unique earthy flavor required for this fish soup.</li>
-    <li>Prahok: Fermented fish paste used for deep umami seasoning.</li>
- </ul>
 
- <h3> Cooking step </h3>
- <ol>
-    <li>Simmer the fish until cooked, remove the bones, and pound the meat into a paste.</li>
-    <li>Create a yellow paste by pounding lemongrass, turmeric, galangal, garlic, and fingerroot.</li>
-    <li>Fry the Kroeung paste and Prahok until fragrant, then stir in the fish meat.</li>
-    <li>: Add water or broth to the pot and bring to a simmer (add coconut milk if desired).</liS>
- </ol>
-</div>
+    
+    <header>
+        <div align="center">
+            
+            <img src="https://www.cambodiaembassyuk.org/wp-content/uploads/2023/11/Num-Banh-Chok-Khmer-768x564.jpg" 
+                 width="400" 
+                 alt="A traditional bowl of Num Banh Chok with fresh green gravy and herbs">
+            <h1>Num Banh Chok: A Culinary Bio</h1>
+        </div>
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+        
+        <nav aria-label="Main Navigation">
+            <p align="center">
+                <a href="https://github.com/topics/login">My GitHub</a> | 
+                <a href="../Hello.html">Exercise 1</a> | 
+                <a href="https://www.facebook.com/kakda.chhun.2025">Social Media</a>
+            </p>
+        </nav>
+    </header>
 
-    <h3>Nutrition Information</h3>
-    <table border="1" style="width: 560px; text-align: center; border-collapse: collapse;">
-        <tr style="background-color: #f2f2f2;">
-            <th style="padding: 10px;">Nutrition</th>
-            <th style="padding: 10px;">Amount per serving</th>
-        </tr>
-        <tr>
-            <td style="padding: 8px;">Calories</td>
-            <td>320 kcal</td>
-        </tr>
-        <tr>
-            <td style="padding: 8px;">Protein</td>
-            <td>18g</td>
-        </tr>
-        <tr>
-            <td style="padding: 8px;">Fat</td>
-            <td>6g</td>
-        </tr>
-    </table>
+    <hr>
 
   
-    <h3>Video Tutorial</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/regiflNIs-0?si=4z8I0Pjn_futbw7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <main>
+        
+        <section id="recipe">
+            <h2>The Signature Dish</h2>
+            <h3>Ingredients</h3>
+            <ul>
+                <li>Freshwater Fish: Used to create the savory gravy.</li>
+                <li>Fermented Rice Noodles: The specific thin noodles for which the dish is named.</li>
+                <li>Kroeung: The yellow aromatic paste made from lemongrass and turmeric.</li>
+                <li>Fingerroot (Krachai): Provides the unique earthy flavor.</li>
+                <li>Prahok: Fermented fish paste used for deep umami seasoning.</li>
+            </ul>
 
+            <h3>Cooking Steps</h3>
+            <ol>
+                <li>Simmer the fish until cooked, remove the bones, and pound the meat into a paste.</li>
+                <li>Create a yellow paste by pounding lemongrass, turmeric, galangal, garlic, and fingerroot.</li>
+                <li>Fry the Kroeung paste and Prahok until fragrant, then stir in the fish meat.</li>
+                <li>Add water or broth to the pot and bring to a simmer.</li>
+            </ol>
+        </section>
 
- </div>
-  <a href="../Hello.html" style="justify-content: center;font-size: 70px;">link exercise1</a>
+        <section id="nutrition">
+            <h3>Nutrition Information</h3>
+            <table border="1" style="border-collapse: collapse; width: 100%; max-width: 560px;">
+                <thead>
+                    <tr style="background-color: #f2f2f2;">
+                        <th scope="col" style="padding: 10px;">Nutrition</th>
+                        <th scope="col" style="padding: 10px;">Amount per serving</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 8px;">Calories</td>
+                        <td align="center">320 kcal</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px;">Protein</td>
+                        <td align="center">18g</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="tutorial">
+            <h3>Video Tutorial</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/regiflNIs-0" title="Num Banh Chok Cooking Tutorial" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <hr>
+
+        
+        <section id="contact">
+            <h2>Contact the Chef</h2>
+            <form action="#" method="post">
+                
+                <p>
+                    <label for="full-name">Name:</label><br>
+                    <input type="text" id="full-name" name="user_name" required minlength="3" placeholder="Enter your full name">
+                </p>
+
+                <p>
+                    <label for="user-email">Email:</label><br>
+                    <input type="email" id="user-email" name="user_email" required placeholder="chef@example.com">
+                </p>
+
+                <p>
+                    <label for="user-tel">Phone Number:</label><br>
+                    <input type="tel" id="user-tel" name="user_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="012-345-678">
+                </p>
+
+                <p>
+                    <label for="topic">Topic:</label><br>
+                    <select id="topic" name="topic" required>
+                        <option value="">-- Please select a topic --</option>
+                        <option value="recipe">Recipe Question</option>
+                        <option value="catering">Catering Inquiry</option>
+                        <option value="feedback">General Feedback</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" required minlength="10" placeholder="Your message here..."></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Message</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p align="center">
+            <small>&copy; 2026 Khmer Culinary Arts | Best Restaurant </small>
+        </p>
+    </footer>
+
 </body>
 </html>
