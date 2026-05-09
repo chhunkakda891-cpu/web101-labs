@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio |My Profile</title>
+</head>
+<body>
+
+   
+    <header>
+        <div align="center">
+            <img src=" alt="A professional portrait of [Your Name]" width="150">
+            <h1>CHHUN KAKDA</h1>
+            <p><strong>Information Technology Engineering Student</strong></p>
+        </div>
+        
+        <nav aria-label="Main navigation">
+            <p align="center">
+                <a href="https://github.com/">GitHub</a> | 
+                <a href="#projects">Projects</a> | 
+                <a href="#contact">Contact</a>
+            </p>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main landmark for the core content -->
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a second-year Information Technology Engineering. I specialize in building 
+                structured, accessible web applications and solving complex logic 
+                problems. This bio page is part of my exploration into semantic HTML.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <ul>
+                <li><strong>Project One:</strong> A Java-based management system.</li>
+                <li><strong>Project Two:</strong> A web-based employee tracker.</li>
+                <li><strong>Project Three:</strong> An Study app.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <!-- Standard form with validation attributes -->
+            <form action="#" method="POST">
+                <p>
+                    <label for="full-name">Name:</label><br>
+                    <input type="text" id="full-name" name="name" required minlength="3" placeholder="Enter your name">
+                </p>
+
+                <p>
+                    <label for="user-email">Email:</label><br>
+                    <input type="email" id="user-email" name="email" required placeholder="example@email.com">
+                </p>
+
+                <p>
+                    <label for="topic">Topic:</label><br>
+                    <select id="topic" name="topic" required>
+                        <option value="">-- Please select --</option>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="collab">Collaboration</option>
+                        <option value="support">Technical Support</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40" required minlength="10" placeholder="Write your message here..."></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+
+    <footer>
+        <p align="center">
+            <small>&copy; 2026 Your Name. All rights reserved.</small>
+        </p>
+    </footer>
+
+</body>
+</html>
